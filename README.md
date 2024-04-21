@@ -16,9 +16,9 @@ The dataset used consists of structured and unstructured (free text) EHR data (2
 
 The repo consists of the src folder, which has two files listed below:
 
-1. Hugging-keras_SE: This Python file contains the necessary code for processing text data from the notes, extracting feature embeddings from LLaMA-13b, and training the network using feature embeddings.
+1. text_preprocessing_training: This Python file contains the necessary code for processing text data from the notes, extracting feature embeddings from LLaMA-13b, and training the network using feature embeddings.
 
-2. Manuscript_analysis_final:This notebook contains the codes used for downstream analysis and figures.
+2. downstream_analysis:This notebook contains the codes used for downstream analysis and figures.
 
 
 # Citations:
