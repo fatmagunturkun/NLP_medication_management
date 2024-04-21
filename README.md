@@ -16,23 +16,11 @@ The dataset used consists of structured and unstructured (free text) EHR data (2
 
 The repo consists of the src folder, which has two files listed below:
 
-1. : data_processing and modellingThis folder contains python files required for processing text data from the notes before applying the transformer model.
+1. Hugging-keras_SE: This Python file contains the necessary code for processing text data from the notes, extracting feature embeddings from LLaMA-13b, and training the network using feature embeddings.
 
-2. downstream analysis:This folder contains notebooks used to obtain results for the research.
-  
-    a. The Training_ClinicalBERT notebook trains the network using dataset mentioned, and the trained weights are saved for further use.
-  
-    b. The Deployment_Val_Test_Set notebook uses the saved weights to obtain the results for validation and test set (annotated notes).
-  
-    c. The Final_Deployment_notebook uses the saved weights and predicts the labels and "BT_y/n" for unannotated notes, and the predictions are saved for further analysis.           (BT: Behavioral Therapy)
-
+2. Manuscript_analysis_final:This notebook contains the codes used for downstream analysis and figures.
 
 
 # Citations:
 
- 1. https://simpletransformers.ai/docs/binary-classification/
- 2. Zima BT, Mangione-Smith R. Gaps in quality measures for child mental health care: an opportunity for a collaborative agenda. Journal of the American Academy of Child and Adolescent Psychiatry. 2011;50(8):735-737.
- 3. National Committee for Quality Assurance. Follow-up care for children prescribed ADHD medication. Available at: http://www.ncqa.org. . Accessed October 24, 2019.
- 4. Zima BT, Murphy JM, Scholle SH, et al. National quality measures for child mental health care: background, progress, and next steps. Pediatrics. 2013;131 Suppl 1:S38-49.
- 5. Casalino LP, Gans D, Weber R, et al. US Physician Practices Spend More Than $15.4 Billion Annually To Report Quality Measures. Health Aff (Millwood). 2016;35(3):401-406.
- 6. Schuster MA, Onorato SE, Meltzer DO. Measuring the Cost of Quality Measurement: A Missing Link in Quality Strategy. Jama. 2017;318(13):1219-1220.
+ 1. 
