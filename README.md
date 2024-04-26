@@ -17,7 +17,7 @@ The repo consists of the src folder, which has two files listed below:
 
 # Citations:
 
- 1.Pillai M, Posada J, Gardner RM, et al. Measuring quality-of-care in treatment of young children with attention-deficit/hyperactivity disorder using pre-trained language models. Journal of the American Medical Informatics Association. 2024;doi:10.1093/jamia/ocae001
+ 1. Pillai M, Posada J, Gardner RM, et al. Measuring quality-of-care in treatment of young children with attention-deficit/hyperactivity disorder using pre-trained language models. Journal of the American Medical Informatics Association. 2024;doi:10.1093/jamia/ocae001
  2. Wolraich ML, Hagan JF, Jr., Allan C, et al. Clinical Practice Guideline for the Diagnosis, Evaluation, and Treatment of Attention-Deficit/Hyperactivity Disorder in Children and Adolescents. Pediatrics. Oct 2019;144(4)doi:10.1542/peds.2019-2528
  3. Epstein JN, Kelleher KJ, Baum R, et al. Variability in ADHD care in community-based pediatrics. Pediatrics. Dec 2014;134(6):1136-43. doi:10.1542/peds.2014-1500
  4. Zima BT, Murphy JM, Scholle SH, et al. National quality measures for child mental health care: background, progress, and next steps. Pediatrics. Mar 2013;131 Suppl 1:S38-49. doi:10.1542/peds.2012-1427e
